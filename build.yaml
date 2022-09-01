@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: diom36sp_left
+    shield: test
   - board: nice_nano_v2
-    shield: diom36sp_right
+    shield: test

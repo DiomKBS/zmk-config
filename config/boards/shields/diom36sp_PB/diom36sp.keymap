@@ -12,16 +12,16 @@
 				&kp LBKT   &kp COMMA  &kp DOT    &kp P      &kp Y      &kp F      &kp G      &kp C      &kp T      &kp Z
 				&mt APOS A &kp O      &kp E      &kp I      &kp U      &kp H      &kp D      &kp R      &kp N      &kp S
 				&kp SEMI   &kp Q      &kp J      &kp K      &kp X      &kp B      &kp M      &kp W      &kp V      &kp L
-				                      &kp LCTRL  &kp LSHIFT &kp BSPC   &kp ENTER  &kp SPACE  &to 1 
+				                      &to 1  &kp LSHIFT &kp LCTRL   &kp ENTER  &kp SPACE  &to 1
 			>;
 		};
 		
 		number_layer {
 			bindings = <
-				&kp LC(W)  &kp LS(N8) &kp LS(N9) &kp UP     &kp DEL    &kp KP_MINUS &kp N7          &kp N8     &kp N9     &kp KP_PLUS
-				&to 2      &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp KP_EQUAL &kp N4          &kp N5     &kp N6     &kp KP_MULTIPLY
-				&kp LA(F4) &kp RA(N7) &kp RA(N8) &kp RA(N9) &kp RA(N0) &kp N0       &kp N1          &kp N2     &kp N3     &kp KP_DIVIDE
-				                      &kp LC(C)  &kp LC(V)  &to 0      &kp ENTER    &mt LCTRL SPACE &kp BSPC 
+				&kp LC(W)  &kp LS(N8) &kp LS(N9) &kp UP     &kp DEL    &kp KP_DIVIDE &kp N7          &kp N8     &kp N9     &kp KP_MINUS
+				&to 2      &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &kp KP_COMMA  &kp N4          &kp N5     &kp N6     &kp KP_PLUS
+				&kp LA(F4) &kp RA(N7) &kp RA(N8) &kp RA(N9) &kp RA(N0) &kp N0        &kp N1          &kp N2     &kp N3     &kp KP_MULTIPLY
+				                      &kp LC(C)  &kp LC(V)  &to 0      &kp ENTER     &mt LCTRL SPACE &kp BSPC
 			>;
 		};
 		
